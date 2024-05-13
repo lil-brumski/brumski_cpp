@@ -8,6 +8,7 @@ _This.txt file contains guides and instructions on how to use the BRUMSKI_GRADE_
 3. Code example:
 
 *\#include \<iostream>
+
 \#include "BRUMSKI_GRADE_CALCULATOR.hpp"*
 
 *int main(){*
