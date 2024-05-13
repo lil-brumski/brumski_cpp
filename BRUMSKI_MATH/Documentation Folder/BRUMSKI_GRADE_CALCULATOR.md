@@ -13,7 +13,7 @@ _This .txt file contains guides and instructions on how to use the BRUMSKI_GRADE
 
 *int main(){*
     
-    *int score = BRUMSKI::GRADE::Input<int>("Enter a score from 0 - 100: ");
+    int score = BRUMSKI::GRADE::Input<int>("Enter a score from 0 - 100: ");
     
     while(score < 0 || score > 100){
         if(score < 0){
@@ -27,7 +27,7 @@ _This .txt file contains guides and instructions on how to use the BRUMSKI_GRADE
     
     char grade = BRUMSKI::GRADE::CALCULATOR(score);
     
-     std::cout<<"You got a/an "<<grade<<".";*
+     std::cout<<"You got a/an "<<grade<<".";
 *}*
 
 4. This library might lack some features, so I will continue to push out updates for it.
