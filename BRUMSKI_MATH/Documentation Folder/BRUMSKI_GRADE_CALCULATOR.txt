@@ -22,3 +22,7 @@ int main(){
     
      std::cout<<"You got a/an "<<grade<<"."; 
 }
+
+4. This library might lack some features, so I will continue to push out updates for it.
+
+5. Happy C++ coding. 💪
