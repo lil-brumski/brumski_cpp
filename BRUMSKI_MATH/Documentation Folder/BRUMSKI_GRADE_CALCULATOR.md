@@ -12,16 +12,22 @@ _This .txt file contains guides and instructions on how to use the BRUMSKI_GRADE
 *\#include "BRUMSKI_GRADE_CALCULATOR.hpp"*
 
 *int main(){*
-
-    int score = BRUMSKI::GRADE::Input<int>("Enter a score from 0 - 100: ");
-
-    while(score < 0 && score > 100){
+    
+    *int score = BRUMSKI::GRADE::Input<int>("Enter a score from 0 - 100: ");
+    
+    while(score < 0 || score > 100){
+        if(score < 0){
+            std::cout<<"Score cannot be less than zero.\n";
+            }
+        else if(score > 100){
+            std::cout<<"Score cannot be more than 100.\n";
+            }
         score = BRUMSKI::GRADE::Input<int>("Enter a score from 0 - 100: ");
         }
-
+    
     char grade = BRUMSKI::GRADE::CALCULATOR(score);
-
-     std::cout<<"You got a/an "<<grade<<"."; 
+    
+     std::cout<<"You got a/an "<<grade<<".";*
 *}*
 
 4. This library might lack some features, so I will continue to push out updates for it.
