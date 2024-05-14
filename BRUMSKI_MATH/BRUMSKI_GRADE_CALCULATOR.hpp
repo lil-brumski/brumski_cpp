@@ -1,3 +1,8 @@
+//.This product is open to the public for use, no payment required, just giving of credits is required.
+//Made by David Tamaratare Oghenebrume, a Computer Engineering student of Rivers State University. First published on the 13th of May, 2024.
+//Last edited on 14th of May, 2024.
+
+
 #ifndef BRUMSKI_GRADE_CALC
 #define BRUMSKI_GRADE_CALC
 
@@ -6,9 +11,9 @@
 #include <limits>
 
 namespace BRUMSKI {
-    
+
     namespace GRADE{
-        
+
         template <class T>
           T Input(const std::string& prompt){
               T value;
@@ -25,9 +30,9 @@ namespace BRUMSKI {
                   }
                return value;
               }
-          
+
         char CALCULATOR(const int& score){
-            
+
             if(score >= 70 && score <= 100){
                 return 'A';
                 }
@@ -46,11 +51,11 @@ namespace BRUMSKI {
             else if(score >= 0 && score <= 39){
                 return 'F';
                 }
-             
+
               return 'X';  
             }  
-                  
+
         }
-        
+
     }
 #endif
