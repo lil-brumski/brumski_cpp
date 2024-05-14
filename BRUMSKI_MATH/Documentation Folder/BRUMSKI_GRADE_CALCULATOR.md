@@ -15,6 +15,8 @@ _This .txt file contains guides and instructions on how to use the BRUMSKI_GRADE
     
     int score = BRUMSKI::GRADE::Input<int>("Enter a score from 0 - 100: ");
     
+    score = std::round(score);
+
     while(score < 0 || score > 100){
         if(score < 0){
             std::cout<<"Score cannot be less than zero.\n";
@@ -23,6 +25,7 @@ _This .txt file contains guides and instructions on how to use the BRUMSKI_GRADE
             std::cout<<"Score cannot be more than 100.\n";
             }
         score = BRUMSKI::GRADE::Input<int>("Enter a score from 0 - 100: ");
+        score = std::round(score);
         }
     
     char grade = BRUMSKI::GRADE::CALCULATOR(score);
