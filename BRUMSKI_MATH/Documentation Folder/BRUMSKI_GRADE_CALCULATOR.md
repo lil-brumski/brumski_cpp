@@ -1,5 +1,5 @@
 
-_This .txt file contains guides and instructions on how to use the BRUMSKI_GRADE_CALCULATOR.hpp library._
+_This .md file contains guides and instructions on how to use the BRUMSKI_GRADE_CALCULATOR.hpp library._
 
 1. This header file contains a template that checks the data type that the user enters. If it's the wrong one, a loop will be initiated until the correct data type is entered. The function name is *"BRUMSKI::GRADE::Input\<T>()"* were *'T'* represents the data type that the user is using.
 
