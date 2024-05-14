@@ -1,1 +1,1 @@
-
+_This .md file contains guides and instructions on how to use the BRUMSKI_AREA_2D_SHAPES.hpp library._
