@@ -9,6 +9,8 @@ _This .txt file contains guides and instructions on how to use the BRUMSKI_GRADE
 
 *\#include \<iostream>*
 
+*\#include \<cmath>*
+
 *\#include "BRUMSKI_GRADE_CALCULATOR.hpp"*
 
 *int main(){*
