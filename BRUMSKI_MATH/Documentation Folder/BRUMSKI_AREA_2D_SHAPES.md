@@ -12,7 +12,7 @@ _This .md file contains guides and instructions on how to use the BRUMSKI_AREA_2
 
 *\#include \<iostream>*
 
-\*#include "BRUMSKI_AREA_2D_SHAPES.hpp"*
+*\#include "BRUMSKI_AREA_2D_SHAPES.hpp"*
 
 *int main(){*
     
