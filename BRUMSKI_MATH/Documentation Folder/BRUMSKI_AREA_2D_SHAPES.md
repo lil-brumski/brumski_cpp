@@ -25,3 +25,8 @@ _This .md file contains guides and instructions on how to use the BRUMSKI_AREA_2
     std::cout<<"The area of the circle is: "<<area<<std::endl;
     
 *}*
+
+4. This library might lack some features, so I will continue to push out updates for it.
+
+
+5. Happy C++ coding. 💪
