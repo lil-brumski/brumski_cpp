@@ -15,7 +15,7 @@ _This .md file contains guides and instructions on how to use the BRUMSKI_GRADE_
 
 *int main(){*
     
-    double score = BRUMSKI::GRADE::Input<double>("Enter a score from 0 - 100: ");
+    double score = BRUMSKI::Input<double>("Enter a score from 0 - 100: ");
     
     score = std::round(score);
 
@@ -26,7 +26,7 @@ _This .md file contains guides and instructions on how to use the BRUMSKI_GRADE_
         else if(score > 100){
             std::cout<<"Score cannot be more than 100.\n";
             }
-        score = BRUMSKI::GRADE::Input<double>("Enter a score from 0 - 100: ");
+        score = BRUMSKI::Input<double>("Enter a score from 0 - 100: ");
         score = std::round(score);
         }
     
