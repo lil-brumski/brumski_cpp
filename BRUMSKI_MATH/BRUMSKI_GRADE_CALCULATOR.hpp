@@ -12,9 +12,7 @@
 
 namespace BRUMSKI {
 
-    namespace GRADE{
-
-        template <class T>
+     template <class T>
           T Input(const std::string& prompt){
               T value;
               while(true){
@@ -30,6 +28,8 @@ namespace BRUMSKI {
                   }
                return value;
               }
+
+    namespace GRADE{       
 
         char CALCULATOR(const int& score){
 
