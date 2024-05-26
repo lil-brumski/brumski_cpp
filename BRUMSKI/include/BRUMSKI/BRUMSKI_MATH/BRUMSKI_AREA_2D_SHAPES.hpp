@@ -1,3 +1,6 @@
+//Free to use but you must give credit and link/tag this repository.
+//Made by David Tamaratare Oghenebrume.
+
 #ifndef AREA_OF_2D_SHAPES
 #define AREA_OF_2D_SHAPES
 
