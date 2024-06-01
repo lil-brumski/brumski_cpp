@@ -6,6 +6,7 @@
 #define BRUMSKI_GRADE_CALC
 
 #include <string>
+#include <sstream>
 #include <iostream>
 #include <limits>
 
