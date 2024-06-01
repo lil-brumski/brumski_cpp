@@ -10,7 +10,7 @@ To install the repository to your device, use a command line and enter:
 
 *To use the files in this directory, either:*
 
-    *1. Copy the file that you'd like to work it from this directory and paste it your own project directory.*
+*1. Copy the file that you'd like to work it from this directory and paste it your own project directory.*
 
     
-    *2. Copy the "brumski" subdirectory and paste it in your compiler's include directory.*
+*2. Copy the "brumski" subdirectory and paste it in your compiler's include directory.*
