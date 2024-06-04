@@ -1,4 +1,5 @@
-/*To use the brumski::DIV() of this code, your C++ compiler must support at least C++23 (ISO 2023).
+/*
+To use the brumski::DIV() of this code, your C++ compiler must support at least C++23 (ISO 2023).
 Knowledge of the <expected> C++ library is also needed.
 Made by David Tamaratare Oghenebrume on the 2nd of June, 2024.
 */
