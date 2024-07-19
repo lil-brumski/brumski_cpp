@@ -6,8 +6,8 @@
 #define BRUMSKI_GRADE_CALC
 
 #include <string>
-#include <sstream>
 #include <iostream>
+#include <sstream>
 #include <limits>
 
 namespace brumski {
