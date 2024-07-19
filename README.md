@@ -5,8 +5,7 @@
 
 To install the repository to your device, use a command line and enter:
 
-*git clone https://github.com/lil-brumski/BRUMSKI_CPP_LIBRARIES.git*
-
+*git clone https://github.com/lil-brumski/brumski_cpp.git*
 
 *To use the files in this directory:*
    
