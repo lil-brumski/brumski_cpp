@@ -2,8 +2,7 @@
 //Made by David Tamaratare Oghenebrume, a Computer Engineering student of Rivers State University. First published on the 13th of May, 2024.
 
 
-#ifndef BRUMSKI_GRADE_CALC
-#define BRUMSKI_GRADE_CALC
+#pragma once
 
 #include <string>
 #include <iostream>
@@ -58,4 +57,4 @@ namespace brumski {
         }
 
     }
-#endif
+
