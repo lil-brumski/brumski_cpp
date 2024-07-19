@@ -1,8 +1,7 @@
 //Free to use but you must give credit and link/tag this repository.
 //Made by David Tamaratare Oghenebrume.
 
-#ifndef AREA_OF_2D_SHAPES
-#define AREA_OF_2D_SHAPES
+#pragma once
 
 #include <iostream>
 #include <cmath>
@@ -71,4 +70,4 @@ namespace brumski {
     
 } // namespace BRUMSKI
 
-#endif // AREA_OF_2D_SHAPES
+// AREA_OF_2D_SHAPES
