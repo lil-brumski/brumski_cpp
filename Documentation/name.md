@@ -14,6 +14,6 @@ _\#include <brumski_cpp/ascii/name.hpp>_
 
 _int main(){_
 
-    _brumski::name();_
+    brumski::name();
 
 _}_
