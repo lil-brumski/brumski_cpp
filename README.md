@@ -1,6 +1,6 @@
 # brumski_cpp
 
-*This repository contains C++ libraries that I'm creating for fun. At the time of creation, the year is 2024, I am a 17 year old Computer Engineering student.*
+*This is a C++ library that I'm creating for fun. At the time of creation, the year is 2024, I am a 17 year old Computer Engineering student.*
 
 
 To install the repository to your device, use a command line and enter:
