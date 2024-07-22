@@ -8,8 +8,12 @@
 
 4. Code example:
 
-**#include <brumski_cpp/ascii/name.hpp>
+
+\#include <brumski_cpp/ascii/name.hpp>
+
 
 int main(){
+
     brumski::name();
-}**
+
+}
