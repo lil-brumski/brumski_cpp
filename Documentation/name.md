@@ -9,6 +9,8 @@
 4. Code example:
 
 
+
+
 _\#include <brumski_cpp/ascii/name.hpp>_
 
 
