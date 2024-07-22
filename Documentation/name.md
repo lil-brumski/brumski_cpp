@@ -5,3 +5,11 @@
 2. Once the function is called, it will ask you for name.
 
 3. Numbers aren't allowed in your name e.g 1, 2, 3, etc.
+
+4. Code example:
+
+**#include <brumski_cpp/ascii/name.hpp>
+
+int main(){
+    brumski::name();
+}**
