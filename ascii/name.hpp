@@ -28,8 +28,6 @@
 #include "work_header_files/Z.hpp"
 #include "work_header_files/SPACE.hpp"
 #include "work_header_files/boolean_functions.hpp"
-#include <iostream>
-#include <iomanip>
 #include <string>
 #include <cctype>
 
