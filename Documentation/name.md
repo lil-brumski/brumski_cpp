@@ -9,11 +9,11 @@
 4. Code example:
 
 
-\#include <brumski_cpp/ascii/name.hpp>
+_\#include <brumski_cpp/ascii/name.hpp>_
 
 
-int main(){
+_int main(){_
 
-    brumski::name();
+    _brumski::name();_
 
-}
+_}_
