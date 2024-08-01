@@ -43,7 +43,7 @@ namespace brumski{
     }
     
     //This function takes in the total cumulative units and total course units and then returns the GPA or CGPA of the student.
-    float semester_GPA(const float& cumulative_units, const float& total_course_units){
+    float semester_GPA(const float& cumulative_units, const int& total_course_units){
         
         float gpa = 0.0f;
         
