@@ -11,4 +11,4 @@ To install the repository to your device, use a command line and enter:
    
 *1. Clone this GitHub repository onto your device  preferably your compiler's include directory or if you want, your project folder.*
 
-*2. This library contains mathematics and ASCII art related stuff.*
+*2. This library contains mathematics, CGPA and ASCII art related stuff.*
