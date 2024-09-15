@@ -12,17 +12,17 @@ _This .md file contains guides and instructions on how to use the derivatives.hp
 test:
 
 ```#include "brumski_cpp/math/derivatives.hpp"```
-``` ```
+``````
 ```#include <iostream>```
-``` ```
+``````
 ```int main(){```
-``` ```
+``````
 ```  brumski_cpp::Differential derivative(5, 'x', 2);```
-``` ```
+``````
 ```  std::string result = derivatives.diff();```
-``` ```
+``````
 ```  std::cout << "The derivative of 5*x^2 is: " << result << std::endl;```
-``` ```
+``````
 ```  return 0;```
-``` ```
+``````
 ```}```
