@@ -12,7 +12,7 @@
 namespace brumski_cpp {
     
     template <class T>
-        T Input(const std::string& prompt) {
+        T input(const std::string& prompt) {
           T value;
           std::string input;
          while (true) {
@@ -30,39 +30,39 @@ namespace brumski_cpp {
            
     namespace area2dshapes {     
     
-        double SQUARE(double length) {
+        double square(double length) {
             return std::pow(length, 2);   
         }
         
-        double RECTANGLE(double length, double width) {
+        double rectangle(double length, double width) {
             return length * width;
         }
         
-        double TRIANGLE(double base, double height) {
+        double triangle(double base, double height) {
             return 0.5 * base * height;
         }
         
-        double CIRCLE(double radius) {
+        double circle(double radius) {
             return M_PI * std::pow(radius, 2);
         }
         
-        double ELLIPSE(double major_axis, double minor_axis) {
+        double ellipse(double major_axis, double minor_axis) {
             return M_PI * major_axis * minor_axis;
         }
       
-        double PARALLELOGRAM(double base, double height){
+        double parallelogram(double base, double height){
             return base * height;
         }
      
-       double TRAPEZOID(double base1, double base2, double height){
+       double trapezoid(double base1, double base2, double height){
            return 0.5 * (base1 + base2) * height;
        }
       
-      double RHOMBUS(double diagonal1, double diagonal2){
+      double rhombus(double diagonal1, double diagonal2){
           return 0.5 * diagonal1 * diagonal2;
       }
      
-     double KITE(double diagonal1, double diagonal2){
+     double kite(double diagonal1, double diagonal2){
          return 0.5 * diagonal1 * diagonal2;
      }
            

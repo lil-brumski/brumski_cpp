@@ -12,7 +12,7 @@
 namespace brumski_cpp {
 
      template <class T>
-        T Input(const std::string& prompt) {
+        T input(const std::string& prompt) {
           T value;
           std::string input;
          while (true) {
@@ -30,7 +30,7 @@ namespace brumski_cpp {
 
     namespace grade{       
 
-        char CALCULATOR(const int& score){
+        char calculator(const int& score){
 
             if(score >= 70 && score <= 100){
                 return 'A';
