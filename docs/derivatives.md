@@ -15,14 +15,14 @@ _#include "brumski_cpp/math/derivatives.hpp"_
 
 _#include <iostream>_
 
-   _int main(){_
+   int main(){
 
-     _brumski_cpp::Differential derivative(5, 'x', 2);_
+     brumski_cpp::Differential derivative(5, 'x', 2);
 
-     _std::string result = derivatives.diff();_
+     std::string result = derivatives.diff();
 
-     _std::cout << "The derivative of 5*x^2 is: " << result << std::endl;_
+     std::cout << "The derivative of 5*x^2 is: " << result << std::endl;
 
-     _return 0;_
+     return 0;
 
    _}_
