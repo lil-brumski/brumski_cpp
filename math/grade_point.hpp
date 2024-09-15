@@ -6,7 +6,7 @@
 
 #include <iostream>
 
-namespace brumski{
+namespace brumski_cpp{
     
     namespace grade{
         

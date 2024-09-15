@@ -2,7 +2,7 @@
 
 #include <string>
 
-namespace brumski{
+namespace brumski_cpp{
 
  class Integration{
  private:

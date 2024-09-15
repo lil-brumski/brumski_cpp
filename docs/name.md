@@ -1,6 +1,6 @@
 **This library is for using ASCII characters to output your name:**
 
-1. The only function here is **brumski::name()** which doesn't take any parameter.
+1. The only function here is **brumski_cpp::name()** which doesn't take any parameter.
 
 2. Once the function is called, it will ask you for your name.
 
@@ -16,6 +16,6 @@ _\#include <brumski_cpp/ascii/name.hpp>_
 
 _int main(){_
 
-    brumski::name();
+    brumski_cpp::name();
 
 _}_

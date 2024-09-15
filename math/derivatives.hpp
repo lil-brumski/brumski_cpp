@@ -3,7 +3,7 @@
 
 #include <string>
 
-namespace brumski{
+namespace brumski_cpp{
 
   class Differential{
   private:

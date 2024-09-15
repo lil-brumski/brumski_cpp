@@ -9,7 +9,7 @@
 #include <sstream>
 #include <limits>
 
-namespace brumski {
+namespace brumski_cpp {
 
      template <class T>
         T Input(const std::string& prompt) {

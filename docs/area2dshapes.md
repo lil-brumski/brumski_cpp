@@ -1,6 +1,6 @@
 _This .md file contains guides and instructions on how to use the area2dshapes.hpp library._
 
-1. This header file contains a template that checks the data type that the user enters. If it's the wrong one, a loop will be initiated until the correct data type is entered. The function name is "brumski::Input<T>()" were 'T' represents the data type that the user is using.
+1. This header file contains a template that checks the data type that the user enters. If it's the wrong one, a loop will be initiated until the correct data type is entered. The function name is "brumski_cpp::Input<T>()" were 'T' represents the data type that the user is using.
 
 
 2. The 2D shapes included in the library are: SQUARE, RECTANGLE, TRIANGLE, CIRCLE, ELLIPSE, PARALLELOGRAM, TRAPEZOID, RHOMBUS, KITE.
@@ -16,11 +16,11 @@ _This .md file contains guides and instructions on how to use the area2dshapes.h
 
 *int main(){*
     
-    double length = brumski::Input<double>("Enter the length of your rectangle: ");
+    double length = brumski_cpp::Input<double>("Enter the length of your rectangle: ");
     
-    double width = brumski::Input<double>("Enter the width of your rectangle: ");
+    double width = brumski_cpp::Input<double>("Enter the width of your rectangle: ");
     
-    double area = brumski::area2dshapes::RECTANGLE(length, width);
+    double area = brumski_cpp::area2dshapes::RECTANGLE(length, width);
     
     std::cout<<"The area of the circle is: "<<area<<std::endl;
     

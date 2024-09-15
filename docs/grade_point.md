@@ -14,7 +14,7 @@ _This .md file contains guides and instructions on how to use the grade_point.hp
      char grade = 'A';
      int course_unit = 3;
     
-     int grade_point = brumski::grade::point(grade, course_unit);
+     int grade_point = brumski_cpp::grade::point(grade, course_unit);
 
      std::cout << "Grade point is: " << grade_point << std::endl;
 
