@@ -1,5 +1,5 @@
 #include <iostream>
-#include "cgpa.hpp"
+#include "brumski_cpp/school/cgpa.hpp"
 
 int main(){
     
