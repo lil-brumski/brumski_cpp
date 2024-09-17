@@ -13,6 +13,6 @@ To download this repository to your device, use a command line and enter:
 * More stuff are coming!
 
 
-_Created by David Tamaratare Oghenebrume, @lil-brumski on GitHub._
+_Created by David Tamaratare Oghenebrume, [@lil-brumski](https://github.com/lil-brumski) on GitHub._
 
 
