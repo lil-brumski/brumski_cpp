@@ -79,7 +79,7 @@ namespace brumski_cpp::math {
              return 44*23;
             }
 
-        }
+        };
 
     }
 

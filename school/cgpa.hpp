@@ -16,7 +16,7 @@ namespace brumski_cpp::school{
         while(true){           
             if(score < 0 || score > 100){
                 //This makes sure the user enters correct data type which is float.
-                score = brumski::math::input<float>("Enter your "+name+" score: ");
+                score = brumski_cpp::math::input<float>("Enter your "+name+" score: ");
              }
              else{
                  //When the score is greater than 0 or less than 100 the loop will be broken.
@@ -28,7 +28,7 @@ namespace brumski_cpp::school{
         score = std::round(score);    
         
         //The function that this variable takes in converts the numerical score into an alphabetic grade (A-F).
-        char grade = brumski::math::grade::calculator(score);    
+        char grade = brumski_cpp::math::grade::calculator(score);    
     
         return grade;
     
@@ -38,7 +38,7 @@ namespace brumski_cpp::school{
     //It returns the grade point of that course.'
     int course_grade_point(const char& grade, const int& course_units){
         //This function below does the actual work. Read the documentation for "grade_point.hpp."
-        return brumski::math::grade::point(grade, course_units);
+        return brumski_cpp::math::grade::point(grade, course_units);
     }
     
     //This function takes in the total cumulative units and total course units and then returns the GPA or CGPA of the student.

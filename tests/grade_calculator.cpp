@@ -2,7 +2,7 @@
 
 #include <cmath>
 
-#include "brumski_cpp/math/grade_calculator.hpp"
+#include <brumski_cpp/math/grade_calculator.hpp>
 
 int main(){
     
@@ -23,13 +23,13 @@ int main(){
     
     char grade = brumski_cpp::math::grade::calculator(score);
     
-   std::cout<<"You got a/an "<<grade<<".";
+   std::cout<<"You got a/an "<<grade<<".\n";
 
    int course_unit = 3;
     
    int grade_point = brumski_cpp::math::grade::point(grade, course_unit);
 
-     std::cout << "Grade point is: " << grade_point << std::endl;
+     std::cout << "Course unit is "<< course_unit << ".\nGrade point is: " << grade_point << std::endl;
 
 
 }
