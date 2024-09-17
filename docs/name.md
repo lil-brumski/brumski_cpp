@@ -6,16 +6,4 @@
 
 3. Numbers aren't allowed in your name e.g 1, 2, 3, etc.
 
-4. Code example:
-
-
-
-
-_\#include <brumski_cpp/ascii/name.hpp>_
-
-
-_int main(){_
-
-    brumski_cpp::ascii::name();
-
-_}_
+4. Code example [found here](https://github.com/lil-brumski/brumski_cpp/blob/main/tests%2Fname.cpp).

@@ -7,44 +7,8 @@ _This .md file contains guides and instructions on how to use the grade_calculat
 
 3. `brumski::math::grade::point()` - This function takes in two parameters of type *char* and *int* respectively and returns an integer. The *char* represents the grade (A-F), while the *int* represents the course unit of that course.
 
-4. Code example:
+4. Code example [found here](https://github.com/lil-brumski/brumski_cpp/blob/main/tests%2Fgrade_calculator.cpp).
 
-*\#include \<iostream>*
+5. This library might lack some features, so I will continue to push out updates for it.
 
-*\#include \<cmath>*
-
-*\#include "brumski_cpp/math/grade_calculator.hpp"*
-
-*int main(){*
-    
-    double score = brumski_cpp::math::input<double>("Enter a score from 0 - 100: ");
-    
-    score = std::round(score);
-
-    while(score < 0 || score > 100){
-        if(score < 0){
-            std::cout<<"Score cannot be less than zero.\n";
-            }
-        else if(score > 100){
-            std::cout<<"Score cannot be more than 100.\n";
-            }
-        score = brumski_cpp::math::input<double>("Enter a score from 0 - 100: ");
-        score = std::round(score);
-        }
-    
-    char grade = brumski_cpp::math::grade::calculator(score);
-    
-   std::cout<<"You got a/an "<<grade<<".";
-
-   int course_unit = 3;
-    
-   int grade_point = brumski_cpp::math::grade::point(grade, course_unit);
-
-     std::cout << "Grade point is: " << grade_point << std::endl;
-
-
-*}*
-
-4. This library might lack some features, so I will continue to push out updates for it.
-
-5. Happy C++ coding. 💪
+6. Happy C++ coding. 💪

@@ -7,24 +7,7 @@ _This .md file contains guides and instructions on how to use the area2dshapes.h
 
 3. How to use the functions; e.g *double area = brumski::math::area2dshapes::rectangle(x, Y);*- were *x and Y* represent the parts used for getting the area.
 
-4. Code example:
-
-
-*\#include \<iostream>*
-
-*\#include "brumski_cpp/math/area2dshapes.hpp"*
-
-*int main(){*
-    
-    double length = brumski_cpp::input<double>("Enter the length of your rectangle: ");
-    
-    double width = brumski_cpp::input<double>("Enter the width of your rectangle: ");
-    
-    double area = brumski_cpp::math::area2dshapes::rectangle(length, width);
-    
-    std::cout<<"The area of the circle is: "<<area<<std::endl;
-    
-*}*
+4. Code example [found here](https://github.com/lil-brumski/brumski_cpp/blob/main/tests%2Farea2dshapes.cpp).
 
 5. This library might lack some features, so I will continue to push out updates for it.
 

@@ -9,20 +9,5 @@ _This .md file contains guides and instructions on how to use the derivatives.hp
 * Next you call the diff() method e.g `std::string result = derivative.diff();`
 
 
-test:
+test [here](https://github.com/lil-brumski/brumski_cpp/blob/main/tests%2Fderivatives.cpp).
 
-_#include "brumski_cpp/math/derivatives.hpp"_
-
-_#include \<iostream>_
-
-   int main(){
-
-     brumski_cpp::Differential derivative(5, 'x', 2);
-
-     std::string result = derivative.diff();
-
-     std::cout << "The derivative of 5*x^2 is: " << result << std::endl;
-
-     return 0;
-
-   _}_
