@@ -32,7 +32,7 @@
 #include <cctype>
 
 //Main function where the program starts running.
-namespace brumski_cpp{
+namespace brumski_cpp::ascii{
     
     void name(){
         

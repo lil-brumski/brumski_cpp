@@ -9,7 +9,7 @@
 #include <sstream>
 #include <limits>
 
-namespace brumski_cpp {
+namespace brumski_cpp::math {
 
      template <class T>
         T input(const std::string& prompt) {
@@ -28,9 +28,10 @@ namespace brumski_cpp {
         return value;
      }
 
-    namespace grade{       
-
-        char calculator(const int& score){
+    class grade{       
+    public:
+         
+        static char calculator(const int& score){
 
             if(score >= 70 && score <= 100){
                 return 'A';
@@ -53,6 +54,30 @@ namespace brumski_cpp {
 
               return 'X';  
             }  
+         
+         static int point(const char& grade, const int& course_unit){
+            
+            if(grade == 'A'){
+                return 5 * course_unit;
+                }
+            else if(grade == 'B'){
+                return 4 * course_unit;
+                }
+            else if(grade == 'C'){
+                return 3 * course_unit;
+                }
+            else if(grade == 'D'){
+                return 2 * course_unit;
+                }
+            else if(grade == 'E'){
+                return 1 * course_unit;
+                }   
+            else if(grade == 'F'){
+                return 0 * course_unit;
+                }  
+                
+             return 44*23;
+            }
 
         }
 
