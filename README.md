@@ -2,7 +2,7 @@
 
 This is a simple static C++ library that can be used for some mathematics, CGPA and ASCII art related stuff.
 
-To get this project on your device and build it, run the following commands: 
+To get this project on your device and build it, run the following commands in your project directory: 
 
 ```bash
    git clone https://github.com/lil-brumski/brumski_cpp.git
