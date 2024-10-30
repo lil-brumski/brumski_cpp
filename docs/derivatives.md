@@ -9,5 +9,3 @@ _This .md file contains guides and instructions on how to use the derivatives.hp
 * Next you call the diff() method e.g `std::string result = derivative.diff();`
 
 
-test [here](https://github.com/lil-brumski/brumski_cpp/blob/main/tests%2Fderivatives.cpp).
-
