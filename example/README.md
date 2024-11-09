@@ -2,33 +2,28 @@ To test this example, do the following:
 
 * Download this library onto your device in any folder you want; using ```git clone https://github.com/lil-brumski/brumski_cpp.git``` inside of a terminal or command line.
 
-* Move the `example/` directory outside of the `brumski_cpp/` directory so that they can both be in the same directory.
+* Create a new project or use existing project and move the brumski_cpp/ folder to inside of your project.
 
-* Move `brumski_cpp/` to inside `example/`
+* Create the CMakeLists.txt for your project.
 
-* Enter the `brumski_cpp/` directory and create a subdirectory `lib/`
+* Create a folder: `build/` inside the project directory.
 
-* Enter `lib/' and run `cmake .. && make`
+* Enter ```cmake .. -DUSE_DERIV_INT=ON``` to include the derivative and integration library or just ```cmake ..``` to exclude it.
 
-* Create a folder: `build/` inside the `example/` directory.
+* Run ```make```
 
-* Enter ```cmake .. && make```
-
-* Run the executable using `./example.o`
-
+* Run the executable
 
 This is what you should do basically:
 
 ```bash
    $ git clone https://github.com/lil-brumski/brumski_cpp.git
-   $ cd brumski_cpp/
-   $ mv example /brumski_cpp/location
-   $ mv brumski_cpp ~/example
-   $ cd example/brumski_cpp/
-   $ mkdir lib && cd lib
-   $ cmake .. && cmake --build .
-   $ cd ../..
+   $ mkdir project_name/
+   $ mv brumski_cpp/ project_name/
+   $ cd project_name/
+   $ micro CMakeLists.txt
+   $ micro {soucre_files}.cpp
    $ mkdir build && cd build
    $ cmake .. && cmake --build .
-   $ ./example.o
+   $ ./executable 
 ```

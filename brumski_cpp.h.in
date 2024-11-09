@@ -1,0 +1,5 @@
+#pragma once
+
+#define brumski_cpp_VERSION_MAJOR @brumski_cpp_VERSION_MAJOR@
+#define brumski_cpp_VERSION_MINOR @brumski_cpp_VERSION_MINOR@
+#define brumski_cpp_VERSION_PATCH @brumski_cpp_VERSION_PATCH@

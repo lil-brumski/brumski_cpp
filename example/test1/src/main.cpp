@@ -3,7 +3,11 @@
 
 #include <brumski_cpp/math/area2dshapes.hpp> //Header 1
 #include <brumski_cpp/math/grade_calculator.hpp> //Header 2
-#include <brumski_cpp/math/derivatives.hpp> //Header 3
+
+#ifdef USE_DERIV_INT
+  #include <brumski_cpp/math/derivatives.hpp> //Header 3
+#endif
+
 #include <brumski_cpp/school/cgpa.hpp> //Header 4
 #include <brumski_cpp/ascii/name.hpp> //Header 5
 
@@ -46,11 +50,15 @@ void GRADE_C(){//This uses header 2.
 }
 
 void DERIV(){//This is for Header 3
+#ifdef USE_DERIV_INT
    brumski_cpp::Differential derivative(5, 'x', 2);
 
    std::string result = derivative.diff();
 
    std::cout << "The derivative of 5*x^2 is: " << result << std::endl;
+#else
+   std::cout << "Sorry, the library you're trying to use hasn't been defined!\n";
+#endif
 }
 
 void CG_PA(){//This is for Header 4.  
