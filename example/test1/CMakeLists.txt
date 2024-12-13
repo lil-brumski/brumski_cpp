@@ -9,6 +9,6 @@ add_subdirectory(brumski_cpp)
 
 add_executable(example src/main.cpp)
 
-target_link_libraries(example PUBLIC brumski_cpp)
+target_link_libraries(example PRIVATE brumski_cpp)
 
 target_include_directories(example PUBLIC "${PROJECT_SOURCE_DIR}/brumski_cpp/include")
